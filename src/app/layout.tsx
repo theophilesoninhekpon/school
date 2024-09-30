@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
+import 'primereact/resources/themes/lara-light-indigo/theme.css'; // Thème PrimeReact
+import 'primereact/resources/primereact.min.css'; // CSS des composants PrimeReact
+import 'primeicons/primeicons.css'; // Icônes PrimeReact
+import 'primeflex/primeflex.css'; // PrimeFlex pour la disposition
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
