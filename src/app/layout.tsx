@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+require('dotenv').config();
 
 import 'primereact/resources/themes/lara-light-indigo/theme.css'; // Thème PrimeReact
 import 'primereact/resources/primereact.min.css'; // CSS des composants PrimeReact
